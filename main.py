@@ -2,11 +2,12 @@ import requests
 import telebot
 from telebot import types
 
-bot_token = "1784104723:AAGWmbf5iYOCW1Z7RJsdn4E-85e4Pa2Js8U"
-# bot_token = "5163829016:AAFamHfuTb8g84gnjosbX_MP6QiE7vGvnJU"
+# bot_token = "1784104723:AAGWmbf5iYOCW1Z7RJsdn4E-85e4Pa2Js8U"
+bot_token = "5163829016:AAFamHfuTb8g84gnjosbX_MP6QiE7vGvnJU"
 bot = telebot.TeleBot(bot_token)
 
-base_url = "http://127.0.0.1:8000"
+# base_url = "http://127.0.0.1:8000"
+base_url = "http://girl.eduapp.uz"
 
 
 @bot.message_handler(commands=['start', 'help'])
